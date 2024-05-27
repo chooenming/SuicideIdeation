@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 from transformers import DistilBertTokenizer, TFDistilBertForSequenceClassification
 
-MODEL_FILE_DistilBERT = "/Users/chooenming/Downloads/DistilBert_Intermediate/Model/distilbert"
+MODEL_FILE_DistilBERT = "/DistilBert_Intermediate/Model/distilbert"
 loaded_model_DistilBERT = TFDistilBertForSequenceClassification.from_pretrained(MODEL_FILE_DistilBERT)
 MODEL_NAME = "distilbert-base-uncased"
 loaded_tokenizer_DistilBERT = DistilBertTokenizer.from_pretrained(MODEL_NAME)
