@@ -5,7 +5,7 @@ from transformers import DistilBertTokenizer, TFDistilBertForSequenceClassificat
 
 MODEL_FILE_DistilBERT = "/DistilBert_Intermediate/Model/distilbert"
 MODEL_NAME = "distilbert-base-uncased"
-loaded_model_DistilBERT = TFDistilBertForSequenceClassification.from_pretrained(MODEL_NAME)
+loaded_model_DistilBERT = TFDistilBertForSequenceClassification.from_pretrained(MODEL_FILE_DistilBERT)
 loaded_tokenizer_DistilBERT = DistilBertTokenizer.from_pretrained(MODEL_NAME)
 
 def predict_suicide(statement):
