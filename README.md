@@ -3,6 +3,11 @@
 ## Project Overview
 This repository contains the code for my final year project on using machine learning for online health monitoring, specifically focusing on the detection of suicidal ideation. The project consists of two main parts: data cleaning and exploratory data analysis (EDA).
 
+## Dataset
+Dataset utilised in this study can be obtained from:
+- https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch
+- https://www.kaggle.com/datasets/rvarun11/suicidal-ideation-reddit-dataset
+
 ## Project Structure
 - **01_Data_Cleaning.ipynb**: Jupyter Notebook containing functions and scripts for data cleaning.
 - **02_EDA.ipynb**: Jupyter Notebook containing functions and scripts for exploratory data analysis.
